@@ -3,9 +3,9 @@ body {
 margin: 0;
 }
 .clearfix::after {
-  content: " ";
-  display: block;
-  clear: both;
+	clear: both;
+	display: block;
+	content: "";
 }
 
 .red--box {
@@ -39,7 +39,6 @@ float: left;
 width: 250px;
 height: 100px;
 background: #8c2727;
-float: left;
 }
 .yellow--box{
 width: 400px;
@@ -51,6 +50,6 @@ background: #ffe600;
   float: left;
 }
 
-.container {
+/* .container {
   float: left;
-}
+} */
